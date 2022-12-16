@@ -2,7 +2,7 @@
 
 ESP32-based IoT controller to turn TP-Link Kasa HS100 smartplug off and on based on motion and sound.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hfF_iRAE-oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/hfF_iRAE-oM/default.jpg)](https://youtu.be/hfF_iRAE-oM)
 
 ## Software
 
