@@ -6,6 +6,10 @@ ESP32-based IoT controller to turn TP-Link Kasa HS100 smartplug off and on based
 
 All the files in the `src` directory were uploaded to the root directory of an ESP32 flashed with micropython firmware.
 
+Below is a screenshot of the user interface, available on the device's local wifi network.
+
+![User interface.](ui_screenshot.png)
+
 `ssd1306.py` and an original version of `wifi.py` were provided as part of course material for ENME441: Mechatronics and the Internet of Things at the University of Maryland, by Dr. Don DeVoe. `wifi.py` has been altered significantly.
 
 `uQR.py` was taken, in accordance to the license, from the [uQR GitHub repository](https://github.com/JASchilz/uQR), Copyright (c) 2018, Joseph Schilz.
