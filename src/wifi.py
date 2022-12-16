@@ -20,11 +20,11 @@ class WiFi:
     #     network.STAT_CONNECT_FAIL: 'CONNECT_FAIL',
         network.STAT_GOT_IP: 'GOT_IP'}
     home_wifi = {
-        'ssid': 'ram ranch',
-        'password': 'LeHolyGhost666'}
+        'ssid': 'home_wifi_ssid',
+        'password': 'home_wifi_password'}
     class_wifi = {
-        'ssid': 'meWIFI-Classroom',
-        'password': 'analysis-SUNRISE-grecian'}
+        'ssid': 'class_wifi_ssid',
+        'password': 'class_wifi_password'}
     
     def __init__(self):
         self.wlan = network.WLAN(network.STA_IF)
