@@ -3,6 +3,7 @@
     <head>
         <title>Smart Lights Controller</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="no">
         <link rel="icon" href="data:,">
         <style>
             html {font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}
@@ -18,7 +19,7 @@
     <body>
         <h1>Smart Lights Controller</h1>
         <iframe src="about:blank" srcdoc="<!DOCTYPE html><html><head><style> html {font-family: Helvetica; text-align: center; font-size: 1.5em;}</style></head>
-                <body><p>The lights are <<<lights_status>>>.</p></body></html>" style="border:none; height: 5rem;" name="status-iframe"></iframe><br>
+                <body><p>The lights are <<<lights_status>>>.</p></body></html>" style="border:none; height: 8rem;" name="status-iframe"></iframe><br>
         <form>
             <button type="submit" class="button offbutton" formtarget="status-iframe" formmethod="post" formaction="/off">OFF</button>
             <button type="submit" class="button onbutton" formtarget="status-iframe" formmethod="post" formaction="/on">ON</button>

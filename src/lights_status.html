@@ -2,5 +2,9 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <style>html {font-family: Helvetica; text-align: center; font-size: 1.5em;}</style>
-</head><body><p>The lights are <<<lights_status>>>.</p></body></html>
+    <style>html {font-family: Helvetica; text-align: center; font-size: 1.5em;}
+    .success {display: inline-block; background-color: lightgreen; border: none; border-radius: 4px; color: darkgreen;
+        padding: 4px 24px; text-decoration: none; font-size: 1em; margin: 2px; transition: opacity 1s;}</style>
+</head><body><div class='success' id='success-notification'>Success!</div>
+    <p>The lights are <<<lights_status>>>.</p>
+    <script>setTimeout(function(){document.getElementById('success-notification').style.opacity='0'},3000);</script></body></html>
