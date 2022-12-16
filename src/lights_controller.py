@@ -10,13 +10,6 @@ from web import Server
 from tp_link import Kasa
 from wifi import WiFi, NetworkNotFoundException
 from display import disp
-
-
-class DummyDetector:
-    idle_time_min = 5
-
-class DummyMic:
-    pass
     
 
 class LightsController:
