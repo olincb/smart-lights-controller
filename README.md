@@ -2,6 +2,8 @@
 
 ESP32-based IoT controller to turn TP-Link Kasa HS100 smartplug off and on based on motion and sound.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hfF_iRAE-oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Software
 
 All the files in the `src` directory were uploaded to the root directory of an ESP32 flashed with micropython firmware.
@@ -18,7 +20,7 @@ Below is a screenshot of the user interface, available on the device's local wif
 
 ## Hardware
 
-The housing for the device was 3d printed from the files in the `CAD` directory.
+The housing for the device was 3d printed from the files in the `CAD` directory at the University of Maryland's [Sandbox](https://sandbox.iribe.umd.edu/) maker space.
 
 The following components were used:
 
